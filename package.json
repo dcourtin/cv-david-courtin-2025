@@ -1,0 +1,12 @@
+{
+  "name": "cv-project",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./assets/app.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.9",
+    "tailwindcss": "^4.0.9"
+  }
+}
